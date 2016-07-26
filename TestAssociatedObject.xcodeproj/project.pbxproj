@@ -13,6 +13,7 @@
 		18A96CF01D46F8810094560E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A96CEE1D46F8810094560E /* Main.storyboard */; };
 		18A96CF21D46F8810094560E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A96CF11D46F8810094560E /* Assets.xcassets */; };
 		18A96CF51D46F8810094560E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A96CF31D46F8810094560E /* LaunchScreen.storyboard */; };
+		18A96CFE1D46F96B0094560E /* NSString+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A96CFD1D46F96B0094560E /* NSString+AssociatedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18A96CF11D46F8810094560E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A96CF41D46F8810094560E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A96CF61D46F8810094560E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A96CFC1D46F96B0094560E /* NSString+AssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AssociatedObject.h"; sourceTree = "<group>"; };
+		18A96CFD1D46F96B0094560E /* NSString+AssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AssociatedObject.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		18A96CE41D46F8810094560E /* TestAssociatedObject */ = {
 			isa = PBXGroup;
 			children = (
+				18A96CFC1D46F96B0094560E /* NSString+AssociatedObject.h */,
+				18A96CFD1D46F96B0094560E /* NSString+AssociatedObject.m */,
 				18A96CE81D46F8810094560E /* AppDelegate.h */,
 				18A96CE91D46F8810094560E /* AppDelegate.m */,
 				18A96CEB1D46F8810094560E /* ViewController.h */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A96CFE1D46F96B0094560E /* NSString+AssociatedObject.m in Sources */,
 				18A96CED1D46F8810094560E /* ViewController.m in Sources */,
 				18A96CEA1D46F8810094560E /* AppDelegate.m in Sources */,
 				18A96CE71D46F8810094560E /* main.m in Sources */,

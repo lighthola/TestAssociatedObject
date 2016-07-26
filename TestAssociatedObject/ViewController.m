@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+// My Model
+#import "NSString+AssociatedObject.h"
+
 @interface ViewController ()
 
 @end
@@ -16,7 +19,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSString *myString = [NSString new];
+    
+    // setter
+    [myString setMyAssociatedObject:@"I am GOD WUSOPO！！"];
+    
+    // getter
+    NSLog(@"%@",[myString getMyAssociatedObject]);
+
+    BOOL isRemoveALL = true;
+    if (isRemoveALL) {
+        // release all associated object
+        [myString releaseALLAssociatedObject];
+    } else {
+        // release MyAssociatedObject
+        [myString releaseMyAssociatedObject];
+    }
+    NSLog(@"%@",[myString getMyAssociatedObject] ? @"GOD WUSOPO is alive~" : @"GOD WUSOPO is sick...");
+    
 }
 
 - (void)didReceiveMemoryWarning {
